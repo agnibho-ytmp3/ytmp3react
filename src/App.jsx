@@ -45,12 +45,6 @@ function App() {
 
           {urlResult ? <a className="download_btn" target='_blank' rel="noreferrer" href={urlResult}>Download MP3</a>: ''}
         </section>
-        <footer className="footer">
-              <br /><br /> Made by Agnibho Mukhopadhyay <br /><br />
-              Website: www.agnibho.co.in <br /><br />
-              Email: agnibho.co.in@gmail.com
-        </footer>
-
     </div>
   )
 }
